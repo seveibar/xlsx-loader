@@ -1,0 +1,16 @@
+{
+  "name": "webpack-xlsx-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader to parse xlsx files",
+  "main": "index.js",
+  "repository": "https://github.com/seveibar/xlsx-loader",
+  "author": "Severin Ibarluzea",
+  "license": "MIT",
+  "scripts": {
+    "test": "cd tests && webpack --config webpack.test.js && node output.test.js"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "xlsx": "^0.11.13"
+  }
+}
