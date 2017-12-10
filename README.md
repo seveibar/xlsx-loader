@@ -1,6 +1,6 @@
 # Webpack XLSX Loader
 
-![Build Status](https://circleci.com/gh/seveibar/xlsx-loader.png?circle-token=b5b39e67e7230df2796a21b96184f53989e60d5d)
+![Build Status](https://circleci.com/gh/seveibar/xlsx-loader.png?circle-token=4f40755dbd3a1856769840f048d6c417328e456a)
 
 Imports and parses xlsx files for usage with the [xlsx npm module](https://www.npmjs.com/package/xlsx).
 
@@ -14,7 +14,7 @@ npm install --save-dev webpack-xlsx-loader
 
 Add a rule to your webpack config.
 
-```json
+```javascript
 module.exports = {
   module: {
     rules: [
